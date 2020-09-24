@@ -1,5 +1,6 @@
 # js-everything
 js 0-100 crash course
+look at `plan.md` for the order I planned to do stuff in... didn't go to plan (no pun intended) but still the best order to learn stuff in my opinion
 
 # Running the Examples
 ## Requirements:
