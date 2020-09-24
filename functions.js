@@ -44,7 +44,7 @@ console.log(`vector class moved:`, vector.getPos())
 function factory() {
   return this.car
 }
-console.log(`defualt factory: ${factory()}`) // this is undefined
+// console.log(`defualt factory: ${factory()}`) // this is undefined
 
 const honda = factory.bind({ car: "honda" })
 console.log(`honda factory: ${honda()}`)
@@ -58,4 +58,4 @@ const notScoped = () => {
   this.val = 10
 }
 console.log(`scoped, c like function: ${new scoped().val}`)
-console.log(`not scoped, es6 function: ${new notScoped().val}`) // error
+// console.log(`not scoped, es6 function: ${new notScoped().val}`) // error

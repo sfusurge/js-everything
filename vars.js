@@ -13,4 +13,4 @@ if (true) {
 console.log(l)
 
 const c = 0
-c = 1 // error, write to const variable
+// c = 1 // error, write to const variable

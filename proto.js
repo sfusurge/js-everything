@@ -11,7 +11,7 @@ console.log(arr);
 
 // console.log(`obj.hasOwnProperty("a"): ${obj.hasOwnProperty("a")}`);
 
-console.log(`arr.avg(): ${arr.avg()}`) // error arr.avg is not a function
+// console.log(`arr.avg(): ${arr.avg()}`) // error arr.avg is not a function
 
 Array.prototype.avg = function () { // <-- has to be function not =>, else `this` would not be defined!!
   let i = 0, sum = 0

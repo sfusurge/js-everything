@@ -1,0 +1,23 @@
+{
+  "name": "js-everything",
+  "version": "1.0.0",
+  "description": "into to js ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sfusurge/js-everything.git"
+  },
+  "author": "Ali Khamesy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sfusurge/js-everything/issues"
+  },
+  "homepage": "https://github.com/sfusurge/js-everything#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
